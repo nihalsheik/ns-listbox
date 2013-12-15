@@ -1,0 +1,25 @@
+{
+    "name": "ns-jquery-listbox",
+    "title": "jQuery NihalSoft Window Plugin",
+    "description": "Model Window jQuery JavaScript Library.",
+    "version": "1.0.0",
+    "homepage": "http://nihalsoft.com",
+    "author": {
+        "name": "K.H.Mohamed Sheik Mohideen",
+        "url": "http://nihalsoft.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nihalsheik/ns.jquery.listbox.git"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/nihalsheik/jquery-ns-window/MIT-LICENSE.txt"
+        }
+    ],
+    "dependencies": {
+                "jquery": ">=1.5"
+        },
+    "keywords": ["jquery-listbox", "listbox", "list-with-checkbox"]
+}

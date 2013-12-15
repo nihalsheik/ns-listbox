@@ -1,0 +1,45 @@
+.listbox .loading {background:url(img/indicator.gif) no-repeat;position:absolute;top:50%;left:50%;margin-top:-8px;margin-left:-50px;height:16px;padding-left:22px;padding-top:1px;}
+
+.listbox {position:relative;padding:1px;font-family:tahoma;font-size:11px;background-color:#FFFFFF;overflow:hidden;min-height:30px;border:1px solid #ccc;height:100%}
+.listbox .container {min-height:50px;width:100%;height:100%;overflow:auto;}
+.listbox .controlBar {width:100%;height:27px;padding-top:6px;background-color:#ffffee;position:relative}
+
+.listbox .controlBar div, .listbox .controlBar input, .listbox .controlBar label {float:left;margin-left:8px;}
+.listbox .controlBar span {margin-left:5px;}
+
+.listbox .controlBar.top {border-bottom:1px solid #eee;}
+.listbox .controlBar.bottom {border-top:1px solid #eee;}
+
+.listbox .controlBar .selectAll {cursor:pointer;margin: 0px;margin-left:4px;}
+.listbox .controlBar label{padding-top:3px;}
+
+.listbox .controlBar .searchInput {width:100px;height:18px;border:1px solid #CCCCCC;}
+.listbox .controlBar .search {margin-left:0px;width:18px;height:18px;background:url(img/search.png) right center no-repeat;}
+
+.listbox .controlBar .sort{border:1px solid #eee;width:18px;height:18px;cursor:pointer}
+.listbox .controlBar .sort.asc {background:url(img/sort-ascend.png) 1px 1px no-repeat}
+.listbox .controlBar .sort.desc {background:url(img/sort-descend.png) 1px 1px no-repeat}
+
+.listbox .controlBar div.status {float:right;margin-right:10px;margin-top:3px;color:#666}
+
+.listbox .table{display:table;border-collapse:collapse;table-layout:fixed;width:100%;}
+.listbox .row{display:table-row;}
+.listbox .col{display:table-cell;cursor:pointer;padding-left:30px;height:25px;width:100%;overflow:hidden;vertical-align:middle;}
+
+.listbox.checkbox .col {background:url(img/check_off.gif) 8px 6px no-repeat;}
+.listbox.checkbox .col.selected {background:url(img/checkbox_on.png) 8px 6px no-repeat;color:#BD7C24}
+
+.listbox.radio .col {background:url(img/radio_off.png) 8px 6px no-repeat;}
+.listbox.radio .col.selected {background:url(img/radio_on.png) 8px 6px no-repeat;color: #e80591;font-weight:bold;}
+
+.listbox .col:hover, .listbox .col.selected:hover  {background-color:#ffffcc;color:#333;}
+.listbox .col.filter span {background-color:#ffff00;}
+
+/* .listbox .col.filter span {background-color:#ffff00;display:none} */
+
+.listbox.themeA {max-height:200px}
+
+/*.listbox.themeA .controlBar {border:none;background:url(../../img/line.png) left bottom repeat-x  }*/
+/*.listbox.themeA .searchInput {width:200px;}*/
+/*.listbox.themeA .controlBar.top {margin-bottom:2px;}*/
+/*.listbox.themeA .controlBar div.status {margin-top:0px;}*/
